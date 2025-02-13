@@ -1,0 +1,16 @@
+{
+  "name": "exercise-mongomg",
+  "version": "1.0.0",
+  "main": "solution1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "exercise-mongomg": "file:",
+    "mongoose": "^8.10.0"
+  }
+}

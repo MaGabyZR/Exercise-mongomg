@@ -1,0 +1,4 @@
+mongoimport --db mongo-exercises --collection courses --file exercise-data.json --jsonArray
+
+//on my machine, this is the path used to create the new db mongo-exercises, now in Compass. 
+mongoimport --db mongo-exercises --collection courses --file "C:\Users\dzece\OneDrive\Magaby\Node\Exercise-mongomg\exercise\exercise-data.json" --jsonArray
