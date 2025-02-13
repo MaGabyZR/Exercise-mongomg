@@ -20,10 +20,11 @@ const Course = mongoose.model('Course', courseSchema); //Class Course.
 //Query the DB.
 async function getCourses(){
     return await Course 
-        .find({ isPublished: true, tags: 'backend' })
-        .sort({ name: 1 })
-        .select({ name: 1, author: 1 });
+        .find({ isPublished: true, tags: 'backend' }) //get all published backend end courses
+        .sort({ name: 1 })                             //sort them by their name.  
+        .select({ name: 1, author: 1 });                //pick only their name and author.
 }
+//Display them on the console.
 async function run(){
     const courses = await getCourses();
     console.log(courses);
